@@ -41,7 +41,7 @@ function pixelsToCharacter(pixels_lo_hi) { //expects an array of 8 bools
 	}
 
 	if(codepoint_offset === 0 && settings.monospace === false) { //pixels were all blank
-		codepoint_offset = 4; //0x2800 is a blank braille char, 0x2804 is a single dot
+		return '  ' //en space + 4perem space, about the same as a braile char
 	}
     return String.fromCharCode(0x2800 + codepoint_offset);
 }
