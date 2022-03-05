@@ -1,5 +1,7 @@
 
-# ==> [Test it out in your browser!](https://505e06b2.github.io/Image-to-Braille/)
+# ==> [Test it out in your browser!](https://jerbear2008.github.io/Image-to-Braille/)
+
+This fork is modified so the non-monospace version looks perfect on discord, but it will look wrong in the browser.
 
 Standard:
 
